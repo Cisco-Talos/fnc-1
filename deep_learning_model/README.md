@@ -6,7 +6,7 @@ This model applies a set of [1D Convolutional Nets](https://en.wikipedia.org/wik
 
 The final model was trained on the [FNC-1](https://github.com/FakeNewsChallenge/fnc-1) baseline training set and evaluated against the baseline validation set. The highest scoring parameters during training were saved, then applied to the final test set. This approach scores roughly 3850 on the validation set. 
 
-For more information on model selection and further research, please view our blog post.
+For more information on model selection and further research, please view our blog post (coming soon!).
 
 ## Installation:
 
