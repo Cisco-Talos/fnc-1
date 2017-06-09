@@ -71,3 +71,17 @@ def col_k_ones_matrix(p, m, k = None, k_min = 1, k_max = 1, seed = None, rm_dup_
     if rm_dup_cols:
         mat = remove_duplicate_cols(mat)
     return mat
+
+ #   Copyright 2017 Cisco Systems, Inc.
+ #  
+ #   Licensed under the Apache License, Version 2.0 (the "License");
+ #   you may not use this file except in compliance with the License.
+ #   You may obtain a copy of the License at
+ #  
+ #     http://www.apache.org/licenses/LICENSE-2.0
+ #  
+ #   Unless required by applicable law or agreed to in writing, software
+ #   distributed under the License is distributed on an "AS IS" BASIS,
+ #   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ #   See the License for the specific language governing permissions and
+ #   limitations under the License.
