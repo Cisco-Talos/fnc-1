@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://github.com/Cisco-Talos/fnc-1/blob/master/solat-in-the-swen.gif" alt="TALOS IN THE NEWS"/>
+</p>
+ 
 # SOLAT IN THE SWEN - deep\_learning\_model
 
 ## Model description:
