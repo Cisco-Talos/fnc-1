@@ -15,4 +15,4 @@ For those interested, `tree_model/README.md` has detailed information on how to 
 See [Fake News Challenge Official Website](http://www.fakenewschallenge.org/) for more information.
 Thank you to Wendy for the logo, and to Joel and Luci for helping to open source our solution.
 
-To learn more about how Talos forces the bad guys to innovate, visit [talosintelligence.com](https://talosintelligence.com/)
+To learn more about how Talos forces the bad guys to innovate, visit [talosintelligence.com](https://talosintelligence.com/about)
