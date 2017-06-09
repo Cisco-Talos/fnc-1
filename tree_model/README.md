@@ -43,13 +43,13 @@ The classifier used in this model is [Gradient Boosted Trees](https://en.wikiped
 ## Procedure
 **1. Install all the dependencies**
 
-**2.** `git clone https://github.com/Cisco-Talos/fnc-1.git`
+**2.`git clone https://github.com/Cisco-Talos/fnc-1.git`**
 
-**3. Download the** `word2vec` **[model](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/) trained on Google News corpus. The file **`GoogleNews-vectors-negative300.bin`** has to be present in both **`/deep_learning_model`** and **`/tree_model`**.**
+**3. Download the `word2vec` [model](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/) trained on Google News corpus. The file `GoogleNews-vectors-negative300.bin` has to be present in both `/deep_learning_model` and `/tree_model`.**
 
-**4. Generate predictions from the **`deep_learning_model`** by running **`/deep_learning_model/clf.py`**.  This output is represented by **`dosiblOutputFinal.csv`**, renamed as **`deepoutput.csv`** in our directories.**
+**4. Generate predictions from the `deep_learning_model` by running `/deep_learning_model/clf.py`.  This output is represented by `dosiblOutputFinal.csv`, renamed as `deepoutput.csv` in our directories.**
 
-**5. Run **`generateFeatures.py`** to produce all the feature files (**`train_stances_processed.csv`** and **`test_stances_processed.csv`** are the (encoding-wise) cleaned-up version of the orginal csv files, same as the updated files in the orginal [FNC-1 GitHub](https://github.com/FakeNewsChallenge/fnc-1)). The following files will be generated:**
+**5. Run `generateFeatures.py` to produce all the feature files (`train_stances_processed.csv` and `test_stances_processed.csv` are the (encoding-wise) cleaned-up version of the orginal csv files, same as the updated files in the orginal [FNC-1 GitHub](https://github.com/FakeNewsChallenge/fnc-1)). The following files will be generated:
 
 ```
 data.pkl
@@ -79,11 +79,11 @@ train.sim.tfidf.pkl
 train.sim.word2vec.pkl
 ```
 
-**6. Comment out line 121 in **`TfidfFeatureGenerator.py`**, then uncomment line 122 in the same file. Raw TF-IDF vectors are needed by **`SvdFeatureGenerator.py`** during feature generation, but only the similarities are needed for training.**
+**6. Comment out line 121 in `TfidfFeatureGenerator.py`, then uncomment line 122 in the same file. Raw TF-IDF vectors are needed by `SvdFeatureGenerator.py` during feature generation, but only the similarities are needed for training.**
 
-**7. Run **`xgb_train_cvBodyId.py`** to train and make predictions on the test set. Output file is **`predtest_cor2.csv`** (for model averaging)**
+**7. Run `xgb_train_cvBodyId.py` to train and make predictions on the test set. Output file is `predtest_cor2.csv` (for model averaging)**
 
-**8. Run **`average.py`** to computed the weighted average of this tree model and the CNN model from Doug Sibley (**`deepoutput.csv`**). The final output file is **`averaged_2models_cor4.csv`**, which is the final submission of our team.**
+**8. Run `average.py` to computed the weighted average of this tree model and the CNN model from Doug Sibley (`deepoutput.csv`). The final output file is `averaged_2models_cor4.csv`, which is the final submission of our team.**
 
 The `run()` function in `average.py` is used to find the optimal weights when combining the models. Uncomment line 164 and 165 to call this function. It needs the probabilities predictions from both the deep learning (`dosiblOutput.csv`) and tree models (`predtest_cor2.csv`) on the holdout set of the official split. This step is not necessary, as we have decided that the weights we were going to use is 0.5 and 0.5
 
