@@ -5,7 +5,7 @@
 # SOLAT IN THE SWEN - tree\_model
 
 ## Overview
-This model takes as input a few text-based features derived from the headline and body of an article. Then it feeds the features into Gradient Boosted Trees to predict the relation between the headline and the body (agree/disagree/discuss/unrelated)
+This model takes as input a few text-based features derived from the headline and body of an article. Then it feeds the features into Gradient Boosted Trees to predict the relation between the headline and the body (`agree`/`disagree`/`discuss`/`unrelated`)
 
 ## Feature Engineering
 
