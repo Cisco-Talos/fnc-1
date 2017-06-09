@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://git.vrt.sourcefire.com/sebaird/fakenewschallenge/blob/master/solat-in-the-swen.gif" alt="TALOS IN THE NEWS"/>
+<img src="https://github.com/Cisco-Talos/fnc-1/blob/master/solat-in-the-swen.gif" alt="TALOS IN THE NEWS"/>
 </p>
 # Fake News Challenge - Team SOLAT IN THE SWEN
 
