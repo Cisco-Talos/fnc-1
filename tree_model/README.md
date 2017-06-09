@@ -53,7 +53,7 @@ The classifier used in this model is [Gradient Boosted Trees](https://en.wikiped
 
 **4. Generate predictions from the `deep_learning_model` by running `/deep_learning_model/clf.py`.  This output is represented by `dosiblOutputFinal.csv`, renamed as `deepoutput.csv` in our directories.**
 
-**5. Run `generateFeatures.py` to produce all the feature files (`train_stances_processed.csv` and `test_stances_processed.csv` are the (encoding-wise) cleaned-up version of the orginal csv files, same as the updated files in the orginal [FNC-1 GitHub](https://github.com/FakeNewsChallenge/fnc-1)). The following files will be generated:
+**5. Run `generateFeatures.py` to produce all the feature files (`train_stances_processed.csv` and `test_stances_processed.csv` are the (encoding-wise) cleaned-up version of the orginal csv files, same as the updated files in the orginal [FNC-1 GitHub](https://github.com/FakeNewsChallenge/fnc-1)). The following files will be generated:**
 
 ```
 data.pkl
