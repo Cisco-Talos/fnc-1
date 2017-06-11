@@ -8,7 +8,7 @@ In the below directories, you can find code used by Team SOLAT IN THE SWEN to pe
 
 For those interested, `tree_model/README.md` has detailed information on how to run our models to duplicate our results.
 
-**Primary Authors:**     Doug Sibley (dosibley@cisco.com), [Yuxi Pan](https://github.com/yuxip) (yuxpan@cisco.com)
+**Primary Authors:**     Doug Sibley (dosibley@cisco.com), [Yuxi Pan](https://www.linkedin.com/in/yuxipanucla) (yuxpan@cisco.com)
 
 **Primary Organizer:**  [Sean Baird](https://www.linkedin.com/in/seanrichardbaird/) (seanrichardbaird@gmail.com)
 
