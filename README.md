@@ -8,9 +8,9 @@ In the below directories, you can find code used by Team SOLAT IN THE SWEN to pe
 
 For those interested, `tree_model/README.md` has detailed information on how to run our models to duplicate our results.
 
-**Primary Authors:**     Doug Sibley (dosibley@cisco.com), Yuxi Pan (yuxpan@cisco.com)
+**Primary Authors:**     Doug Sibley (dosibley@cisco.com), [Yuxi Pan](https://github.com/yuxip) (yuxpan@cisco.com)
 
-**Primary Organizer:**  Sean Baird (seanrichardbaird@gmail.com)
+**Primary Organizer:**  [Sean Baird](https://www.linkedin.com/in/seanrichardbaird/) (seanrichardbaird@gmail.com)
 
 See [Fake News Challenge Official Website](http://www.fakenewschallenge.org/) for more information.
 Thank you to Wendy for the logo, and to Joel and Luci for helping to open source our solution.
