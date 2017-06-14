@@ -7,6 +7,10 @@
 ## Overview
 This model takes as input a few text-based features derived from the headline and body of an article. Then it feeds the features into Gradient Boosted Trees to predict the relation between the headline and the body (`agree`/`disagree`/`discuss`/`unrelated`)
 
+<p align="center">
+<img src="https://github.com/Cisco-Talos/fnc-1/blob/master/images/diagrams_light/tree_model_light.png" alt="Tree Model Diagram"/>
+</p>
+
 ## Feature Engineering
 
 **1. Preprocessing (`generateFeatures.py`)**
