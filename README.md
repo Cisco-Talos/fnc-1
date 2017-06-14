@@ -21,7 +21,7 @@ For those interested, `tree_model/README.md` has detailed information on how to 
 See [Fake News Challenge Official Website](http://www.fakenewschallenge.org/) for more information.
 Thank you to Wendy, Melissa, and the entire Talos art team for the graphics, and to Joel and Luci for helping to open source our solution.  Big thank you to our leadership team, as well, for allowing us the time to work on this important problem.
 
-To learn more about how Talos forces the bad guys to innovate, visit [talosintelligence.com](https://talosintelligence.com/about)
+**Interested in learning how Talos forces the bad guys to innovate?  Visit [talosintelligence.com](https://talosintelligence.com/about)**
 
 <!--
   Copyright 2017 Cisco Systems, Inc.
