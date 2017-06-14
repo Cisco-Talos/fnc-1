@@ -4,7 +4,13 @@
 
 # Fake News Challenge - Team SOLAT IN THE SWEN
 
-In the below directories, you can find code used by Team SOLAT IN THE SWEN to perform stance detection on a number of news headlines and article text. Our model is based on an weighted average between a deep convolutional neural network and a gradient-boosted decision trees. Both `tree_model` and `deep_learning_model` contain their own `README.md` files detailing their model and providing instructions for running and installation. The model averaging process in described in `tree_model`
+In the below directories, you can find code used by Team SOLAT IN THE SWEN to perform stance detection on a number of news headlines and article text. Our model is based on an weighted average between a deep convolutional neural network and a gradient-boosted decision trees. 
+
+<p align="center">
+<img src="https://github.com/Cisco-Talos/fnc-1/blob/master/images/final_prediction_light.png" alt="Our ensemble used a 50/50 weighting"/>
+</p>
+
+Both `tree_model` and `deep_learning_model` contain their own `README.md` files detailing their model and providing instructions for running and installation. The model averaging process in described in `tree_model`
 
 For those interested, `tree_model/README.md` has detailed information on how to run our models to duplicate our results.
 
