@@ -14,7 +14,7 @@ In the below directories, you can find code used by Team SOLAT IN THE SWEN to pe
 
 Both `tree_model` and `deep_learning_model` contain their own `README.md` files detailing their model and providing instructions for running and installation. The model averaging process is described in `tree_model`.
 
-To learn more about how stance detection can help to detect fake news and disinformation campaigns, please visit our blog post (coming soon!) on [talosintelligence.com](https://talosintelligence.com/about).
+To learn more about how stance detection can help to detect fake news and disinformation campaigns, please visit our blog post on [blog.talosintelligence.com/2017/06/talos-fake-news-challenge.html](https://blog.talosintelligence.com/2017/06/talos-fake-news-challenge.html).
 
 For those interested, `tree_model/README.md` has detailed information on how to run our models to duplicate our results.
 
