@@ -4,7 +4,7 @@
 
 # Fake News Challenge - Team SOLAT IN THE SWEN
 
-**Team Members:**     [Yuxi Pan](https://www.linkedin.com/in/yuxipanucla) (yuxpan@cisco.com), Doug Sibley (dosibley@cisco.com), [Sean Baird](https://www.linkedin.com/in/seanrichardbaird/) (seanrichardbaird@gmail.com)
+**Team Members:**     [Yuxi Pan](https://www.linkedin.com/in/yuxipanucla) (yuxpan@cisco.com), Doug Sibley (dosibley@cisco.com), [Sean Baird](https://www.linkedin.com/in/seanrichardbaird/) (sebaird@cisco.com)
 
 In the below directories, you can find code used by Team SOLAT IN THE SWEN to perform stance detection on a number of news headlines and article text. Our model is based on an weighted average between gradient-boosted decision trees and a deep convolutional neural network. 
 
