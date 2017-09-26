@@ -8,7 +8,7 @@ from TfidfFeatureGenerator import *
 from SvdFeatureGenerator import *
 from Word2VecFeatureGenerator import *
 from SentimentFeatureGenerator import *
-from AlignmentFeatureGenerator import *
+#from AlignmentFeatureGenerator import *
 
 def process():
 
@@ -32,7 +32,7 @@ def process():
         test_flag = True
         if test_flag:
             body_test = pd.read_csv("test_bodies_processed.csv", encoding='utf-8')
-            headline_test = pd.read_csv("test_stances_unlabeled_processed.csv", encoding='utf-8')
+            headline_test = pd.read_csv("test_stances_unlabeled.csv", encoding='utf-8')
             test = pd.merge(headline_test, body_test, how="left", on="Body ID")
             
             data = pd.concat((train, test)) # target = NaN for test set
