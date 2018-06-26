@@ -27,7 +27,7 @@ class Word2VecFeatureGenerator(FeatureGenerator):
         
         # 1). document vector built by multiplying together all the word vectors
         # using Google's pre-trained word vectors
-        model = gensim.models.Word2Vec.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
+        model = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
         print 'model loaded'
 
         Headline_unigram_array = df['Headline_unigram_vec'].values
